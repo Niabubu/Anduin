@@ -1,0 +1,22 @@
+#循环14次即可达30min, 请提前开启游戏进行测试，否则无法避免广告。
+#启动测试
+type = user
+count = 10
+speed = 1.0
+start data >>
+#启动angry bird 2
+LaunchActivity(com.rovio.angrybirds, com.rovio.fusion.App)
+
+UserWait(60000)
+Tap(1772,191)
+UserWait(8000)
+Tap(960,950)
+UserWait(15000)
+Tap(120,113)
+UserWait(15000)
+Tap(136,390)
+UserWait(10000)
+Tap(137,948)
+UserWait(10000)
+Tap(124,990)
+UserWait(10000)
